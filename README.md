@@ -1,0 +1,1 @@
+# fusebox-typecheck-test
