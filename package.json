@@ -1,0 +1,29 @@
+{
+  "name": "fusebox-typecheck-test",
+  "version": "1.0.0",
+  "description": "testing multiple (nested) tsconfig modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rs3d/fusebox-typecheck-test.git"
+  },
+  "keywords": [
+    "testing",
+    "fusebox",
+    "typescript",
+    "type-check"
+  ],
+  "author": "Robin Schmitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rs3d/fusebox-typecheck-test/issues"
+  },
+  "homepage": "https://github.com/rs3d/fusebox-typecheck-test#readme",
+  "devDependencies": {
+    "fuse-box": "^2.1.0",
+    "fuse-box-typechecker": "git://github.com/fuse-box/fuse-box-typechecker.git"
+  }
+}

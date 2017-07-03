@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "sourceMap": true,
+        "traceResolution": false,
+        "diagnostics": true,
+        "listFiles": false,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "pretty": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "module": "system",
+        "moduleResolution": "node",
+        "target": "es5",
+        "types": [],
+        "paths": {
+            "@node/*": [
+                "node_modules/*"
+            ],
+            "*": [
+                "*"
+            ]
+        },
+        "baseUrl": "."
+    },
+    "include": [
+        "app/**/*.ts"
+    ],
+    "exclude": [
+        "app/custom",
+        "appLandingpage",
+        "languages",
+        "gulpfile.ts",
+        "bower_components",
+        "node_modules",
+        "bin-assets",
+        "public",
+        "typings/main",
+        "typings/main.d.ts",
+        "**/*.spec.ts",
+        "**/*.html"
+    ]
+}
